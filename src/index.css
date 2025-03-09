@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-audiowide: "Audiowide", sans-serif;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 0.7s infinite;
+}
